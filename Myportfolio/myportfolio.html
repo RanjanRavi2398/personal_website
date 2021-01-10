@@ -18,13 +18,13 @@
     <script defer src="assets/fontawesome/js/all.js"></script>
     
     <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">   
     
     <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+    <link rel="stylesheet" href="assets/css/github-calendar.css">
     <!-- github activity css -->    
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
+    <link rel="stylesheet" href="assets/css/github-activity-0.1.5.min.css">
     
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
@@ -38,15 +38,17 @@
             <img class="profile-image img-fluid float-left rounded-circle" src="assets/images/profile.png" alt="profile image" />
             <div class="profile-content float-left">
                 <h1 class="name">Ravi Ranjan </h1>
-                <h2 class="desc">Computer Science Undergraduate</h2>   
+                <h2 class="desc">Computer Science Undergraduate</h2> 
+                 <div class="social"> 
                 <ul class="social list-inline">
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt"></i></a></li>    
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>   
-                    <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li>                
+                    <li class="list-inline-item"><a href="https://twitter.com/Ravi14020673" class="twitter"><span class="fab fa-twitter"></span></a></li>
+                    <li class="list-inline-item" aria-hidden="true"><a href="https://www.linkedin.com/in/ravi-ranjan-10341a157/" class="linkedin"><span class="fab fa-linkedin-in" aria-hidden="true"></span></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/RanjanRavi2398"class="github"><span class="fab fa-github-alt" aria-hidden="true"></span></a></li>    
+                    <span class="list-inline-item" aria-hidden="true"><a href="https://www.kaggle.com/raviyadav2398"class="kaggle"><i class="fab fa-kaggle"></span></a></li>   
+                                   
                 </ul> 
             </div><!--//profile-->
+            </div>
             <a class="btn btn-cta-primary float-right" href="https://themes.3rdwavemedia.com/" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>              
         </div><!--//container-->
     </header><!--//header-->
@@ -125,21 +127,40 @@
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
-                <section class="github section">
+                <section class="experience section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">My GitHub</h2>
-                        <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
-                        
-                        <div id="github-graph" class="github-graph">
-
-                        </div><!--//github-graph-->
-
-                        <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.        
-                        <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->                       
-                        <div id="ghfeed" class="ghfeed">
-                        </div><!--//ghfeed-->
-                        
-                    </div><!--//secton-inner-->
+                        <h2 class="heading">Awards and Achievements</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Bihar Science Talent Search Examination <span class="place"><a href="#">Govt. of Bihar</a></span> <span class="year">(2012)</span></h3>
+                                <p>Cracked Science talent search exam and secured scholarship.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Project Selection <span class="place"><a href="#">Govt. of Assam</a></span> <span class="year">(2020)</span></h3>
+                                <p>Project(Maternity Risk Management System) is selected by Ministry of Health Assam. .</p>
+                            </div><!--//item-->
+                            
+                            
+                     </div>     
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+            
+      <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Role and Responsiblity </h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Club President <span class="year">(Oct 2017 - May 2018)</span></h3>
+                                <p>Student Representative of first year students.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Project Selection <span class="place"><a href="#">Govt. of Assam</a></span> <span class="year">(2020)</span></h3>
+                                <p>Project(Maternity Risk Management System) is selected by Ministry of Health Assam. .</p>
+                            </div><!--//item-->
+                            
+                            
+                     </div>     
+                    </div><!--//section-inner-->                 
                 </section><!--//section-->
             </div><!--//primary-->
             <div class="secondary col-lg-4 col-12">
@@ -148,9 +169,9 @@
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>San Francisco, US</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">jameslee@website.com</a></li>
-                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://www.website.com</a></li>
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Tiruchirappalli, India</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="https://mail.google.com/mail/u/1/#inbox?compose=new">ravirk17c@iiitt.ac.in</a></li>
+                               
                             </ul>
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -166,39 +187,44 @@
                             <div class="skillset">
                                
                                 <div class="item">
-                                    <h3 class="level-title">Python &amp; Django<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Ruby on Rails<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <h3 class="level-title">Python &amp; Django<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Intermediate</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="85%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
                                 
-                                <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
-                            </div>              
+                                <div class="item">
+                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="80%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS3<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                 <div class="item">
+                                    <h3 class="level-title">Data Science<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>
+                                </div><!--//level-bar-->                                 
+                                </div
+                                <div class="item">
+                                    <h3 class="level-title">Machine Learning<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                 <a class="btn btn-cta-secondary" href="https://github.com/RanjanRavi2398?tab=repositories">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
+                                     
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </aside><!--//section-->
@@ -209,12 +235,14 @@
                         <div class="content">
                             <div class="item">
                                 <blockquote class="quote">                                  
-                                    <p><i class="fas fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
+                                    <p><i class="fas fa-quote-left"></i> As a participant in the Ignitus Internships, Ravi stood out from the beginning for his more than solid previous foundation, and his work on EDA (Exploratory Data Analysis) on a particularly complex dataset, reflected in an impeccable Jupyter Notebook, which is incorporated, without correction of any kind, to the baggage of Ignitus learning elements.
+
+</p>
                                 </blockquote>                
-                                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                             
+                                <p class="source"><span class="name">Afelio Padilla</span><br /><span class="title">COO at Ignitus</span></p>                                                             
                             </div><!--//item-->
                             
-                            <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
+                           <a class="btn btn-cta-secondary" href="https://www.linkedin.com/in/raviranjan-2398/">More on LinkedIn<i class="fas fa-chevron-right pt-1"></i></a>
                             
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -225,13 +253,10 @@
                         <h2 class="heading">Education</h2>
                         <div class="content">
                             <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> MSc Computer Science</h3>
-                                <h4 class="university">University College London <span class="year">(2011-2012)</span></h4>
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> B.Tech Computer Science</h3>
+                                <h4 class="university">Indian Institute of Information Technology Tiruchirappalli <span class="year">(2017-2021)</span></h4>
                             </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BSc Computer Science</h3>
-                                <h4 class="university">University of Bristol <span class="year">(2008-2011)</span></h4>
-                            </div><!--//item-->
+                            <!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
@@ -242,11 +267,11 @@
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="title"><strong>Hindi:</strong></span>
                                     <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
                                 </li><!--//item-->
                                 <li class="item">
-                                    <span class="title"><strong>Spanish:</strong></span>
+                                    <span class="title"><strong>English:</strong></span>
                                     <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
                                 </li><!--//item-->
                             </ul>
@@ -256,10 +281,12 @@
                 
                 <aside class="blog aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Latest Blog Posts</h2>
-                        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
+                        <h2 class="heading">Articles</h2>
+                        <p>Create a deep learning dataset  <a href="https://medium.com/@bmrs2398/create-a-deep-learning-dataset-using-google-images-48654bd6ae96" target="_blank">by using python</a> from Google Images.</p>
+                        
+                       
                         <div id="rss-feeds" class="content">
-
+                 <a class="btn btn-cta-secondary" href="https://medium.com/me/stories/public">More on Medium<i class="fas fa-chevron-right pt-1"></i></a>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
@@ -280,72 +307,61 @@
                 
                 <aside class="list conferences aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Conferences</h2>
+                        <h2 class="heading">Summit</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="far fa-calendar-alt"></i> <a href="#" target="_blank">WWDC 2020</a> (San Francisco)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="#">Hive</a> (Seattle)</li>
+                                <li><i class="far fa-calendar-alt"></i> <a href="#" target="_blank">Data+AI Summit Europe</a> (Virtual)</li>
+                                <li><i class="far fa-calendar-alt"></i> <a href="#">Introduction Lakehouseand SQL Analytics</a> (Seattle)</li>
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                 
-                <aside class="credits aside section">
+               <aside class="list conferences aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Credits</h2>
+                        <h2 class="heading">Soft Skills </h2>
                         <div class="content">
-                            <ul class="list-unstyled pb-2">
-                                <li><a href="https://getbootstrap.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Bootstrap</a></li>
-                                <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fas fa-external-link-alt"></i>FontAwesome</a></li>
-                                <li><a href="https://jquery.com/" target="_blank"><i class="fas fa-external-link-alt"></i>jQuery</a></li>
-                                <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Calendar Plugin</a></li>
-                                
-                                <li><a href="https://caseyscarborough.com/projects/github-activity/" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Activity Stream</a></li>
-                                
-                                <li><a href="https://github.com/sdepold/jquery-rss" target="_blank"><i class="fas fa-external-link-alt"></i>jQuery RSS</a></li>
-                                
-                                <li>Profile image: <a href="https://www.flickr.com/photos/dotbenjamin/2577394151" target="_blank">Ben Smith</a></li>
+                            <ul class="list-unstyled">
+                                <li><i class="far fa-calendar-alt"></i> <a href="#" target="_blank">Communication Skills</a> </li>
+                                <li><i class="far fa-calendar-alt"></i> <a href="#">Leader Ship Skills</a></li>
+                                <li><i class="far fa-calendar-alt"></i> <a href="#">Team Work</a></li>
+                                 <li><i class="far fa-calendar-alt"></i> <a href="#">Analytical Skills</a></li>
                             </ul>
-                            
-                            <hr/>
-                            
-                             <p class="pt-2">This Boootstrap portfolio template is handcrafted by UX designer <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a> at <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> as long as you keep the footer attribution link.</p>
-                             <p>If you’d like to <strong>use this template without the attribution link</strong>, you can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank">buy the commercial license</a>.</p>
-                             
-                             <a class="btn btn-cta-primary btn-download" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank"><i class="fas fa-download"></i> I want to download</a>
-                            <hr/>
-                            <h5 class="subheading pt-3">Want more free Bootstrap themes and templates?</h5>
-                            <p>Check out our <a href="https://themes.3rdwavemedia.com/bootstrap-templates/free/">collection of free themes and templates.</a></p>
-                            <p>Follow <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying</a> on twitter so you don't miss any future freebies!</p> 
-                            
-                            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fab fa-twitter"></i> Follow on twitter</a>
-                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section--> 
+                <aside class="list conferences aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Co-curricular Activities </h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="far fa-calendar-alt"></i> Indoor Sports </li>
+                                <li><i class="far fa-calendar-alt"></i> >Outdoor Sports</li>
+                                <li><i class="far fa-calendar-alt"></i> Debating</li>
+                                 <li><i class="far fa-calendar-alt"></i> Being active in College Clubs</li>
+                                 <li><i class="far fa-calendar-alt"></i> Helping Organizing College Events</li>
+                            </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
-              
-            </div><!--//secondary-->    
-        </div><!--//row-->
-    </div><!--//masonry-->
-    
     <!-- ******FOOTER****** --> 
     <footer class="footer">
         <div class="container text-center">
                 <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="#" target="_blank">Ravi Ranjan</a>2021 </small>
         </div><!--//container-->
     </footer><!--//footer-->
  
     <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/js/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/js/jquery-rss/dist/jquery.rss.min.js"></script> 
     <!-- github calendar plugin -->
-    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <script type="text/javascript" src="assets/js/github-calendar/dist/github-calendar.min.js"></script>
     <!-- github activity plugin -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
+    <script type="text/javascript" src="assets/js/github-activity-0.1.5.min.js"></script>
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
